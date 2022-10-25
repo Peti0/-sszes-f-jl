@@ -1,0 +1,36 @@
+table{
+    border: 2px black;
+        background-color: rgb(63, 63, 219);
+        border-radius: 10px;
+        padding: 10px;
+        border-style:groove;
+        width: 800px;
+ }
+  td, tr{
+      border: solid 1px
+} 
+
+th{
+    text-align: left;
+}
+
+td{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 1  5px;
+
+}
+
+#kiemelt{
+    background-color: red,"
+}
+
+.bekezdések{
+    color: blue;
+}
+
+.fontos{
+    font-weight: bold;
+    color:red;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<style>
+    body{
+counter-reset: szamlalo;
+    }
+    p:before{
+        counter-increment: szamlalo;
+        content:"Bekezdés" counter(szamlalo) ". ";
+    }
+</style>
+</head>
+
+<body>
+<p>A bekezdés szövege...</p> 
+<p>A bekezdés szövege...</p>
+<p>A bekezdés szövege...</p>   
+</body>
+
+</html>
